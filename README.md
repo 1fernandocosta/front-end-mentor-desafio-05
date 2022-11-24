@@ -7,7 +7,7 @@ Esta é uma solução para o [Product preview card component](https://www.fronte
 
 ### Screenshot
 
-![Screenshot](https://github.com/1fernandocosta/front-end-mentor-desafio-05/tree/main/src/images/screenshot.png)
+![Screenshot](https://github.com/1fernandocosta/front-end-mentor-desafio-05/blob/main/src/images/screenshot.png)
 
 ### Links
 
