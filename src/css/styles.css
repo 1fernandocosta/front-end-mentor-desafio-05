@@ -136,7 +136,6 @@ testes {
     justify-content: flex-start;
     padding: 0 80px 87px 80px;
     background-color: var(---Light-Grayish-Blue);
-
 }
 
 .content-content {
@@ -150,6 +149,10 @@ testes {
     /* justify-content: space-between; */
     /* margin-left: 80px; */
     /* margin-right: 0; */
+}
+
+.content-curve-mobile {
+    display: none;
 }
 
 
@@ -179,7 +182,7 @@ testes {
     margin-bottom: 44px;
 }
 
-.content-content a img {
+.content-content img {
     margin-top: 3px;
     margin-left: 5px;
     display: block;
@@ -196,7 +199,15 @@ testes {
     display: block;
     width: 357px;
     height: 100%;
-    /* background-color: #fff; */
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.46);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.46);
+}
+
+.testimonial-flex {
+    display: flex;
+    flex-direction: column;
 }
 
 .testimonial .quotes {
@@ -302,7 +313,7 @@ footer {
     padding: 108px 80px 56px 80px;
     display: flex;
     width: 100%;
-background-color: var(---Very-Dark-Blue);
+    background-color: var(---Very-Dark-Blue);
 }
 
 footer a {
@@ -360,7 +371,7 @@ footer .column-4 {
     background-color: transparent;
 }
 
-footer .column-4 i{
+footer .column-4 i {
     margin-right: 6px;
 }
 
@@ -374,5 +385,5 @@ footer .column-4 i{
     ---Light-Gray: hsl(0, 0%, 75%);
 
     ---fff: (hsl(238, 22%, 44%));
-COLOR: hsl(243, 87%, 12%);
+    COLOR: hsl(243, 87%, 12%);
 }
