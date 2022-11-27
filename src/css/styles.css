@@ -29,14 +29,13 @@ testes {
     ---Moderate-Cyan-2: hsl(170, 46%, 48%);
     ---Light-Grayish-Blue: hsl(240, 75%, 98%);
     ---Light-Gray: hsl(0, 0%, 75%);
+    ---Background: hsl(240, 75%, 98%);
 }
 
 .content {
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
     width: 1440px;
-    /* border: 1px solid #000; */
 }
 
 .header {
@@ -62,13 +61,11 @@ testes {
 .main {
     width: 1281px;
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     margin-top: 87px;
     margin-left: 79px;
     margin-right: 80px;
     margin-bottom: 160px;
-    /* background-color: var(---Light-Grayish-Blue); */
 }
 
 .main-content {
@@ -120,7 +117,7 @@ testes {
 
 .img-curve-desktop {
     width: 1440px;
-    height: 114px;
+    height: 113px;
     display: block;
     background-image: url("../images/bg-curve-desktop.svg");
     background-position: center;
@@ -129,26 +126,16 @@ testes {
 }
 
 .section-content {
-    /* margin-top: 160px; */
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     padding: 0 80px 87px 80px;
-    background-color: var(---Light-Grayish-Blue);
+    background-color: var(---Background);
 }
 
 .content-content {
-    /* background-color: #F8F8FE; */
     padding-top: 60px;
-    /* background-color: var(---Light-Grayish-Blue); */
-    /* width: 773px; */
-    /* height: 500px; */
-    /* display: block; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
-    /* margin-left: 80px; */
-    /* margin-right: 0; */
 }
 
 .content-curve-mobile {
@@ -293,7 +280,6 @@ testes {
 }
 
 .form-section2 button {
-    /* margin-left: 12px; */
     padding: 15px 35px;
     letter-spacing: 0.5px;
     font-weight: 900;
@@ -373,17 +359,4 @@ footer .column-4 {
 
 footer .column-4 i {
     margin-right: 6px;
-}
-
-:root {
-    ---Very-Dark-Blue: hsl(243, 87%, 12%);
-    ---Desaturated-Blue: hsl(238, 22%, 44%);
-    ---Bright-Blue: hsl(224, 93%, 58%);
-    ---Bright-Blue-Hover: hsl(224, 94%, 66%);
-    ---Moderate-Cyan: hsl(170, 45%, 43%);
-    ---Light-Grayish-Blue: hsl(240, 75%, 98%);
-    ---Light-Gray: hsl(0, 0%, 75%);
-
-    ---fff: (hsl(238, 22%, 44%));
-    COLOR: hsl(243, 87%, 12%);
 }
